@@ -22,7 +22,7 @@
 //main program
 int main(void)
 {	
-	USART_Init(9600);
+	USART_Init(500000);
 
 	char str[] = "Hello World";
 	for (uint8_t i=0; i<strlen(str); i++)

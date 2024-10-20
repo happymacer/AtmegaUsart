@@ -17,7 +17,7 @@
 
 //subroutines
 
-void USART_Init(unsigned int BAUD)
+void USART_Init(unsigned long BAUD)
 {
 	//Set baud rate
 	unsigned int ubrr = ((F_CPU/16/BAUD)-1);
